@@ -19,5 +19,5 @@ from jira_proxy import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('test/', views.proxy_view, name="home"),
+    path('', views.proxy_view, name="home"),
 ]
